@@ -2213,7 +2213,7 @@ body.viewing-page-1 .top-line-logo-wrapper {
   }
 }
 
-@media screen and (min-height: 590px) and (max-height: 610px) {
+@media screen and (min-height: 650px) and (max-height: 870px) {
   .content-text {
     font-size: 19px;
     padding-right: 36px;
