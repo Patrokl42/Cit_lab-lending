@@ -1399,6 +1399,12 @@ body .menu-open {
     height: 195px;
     left: 44%;
   }
+  .bottom-line {
+    min-height: 85px;
+  }
+  .navigate-next, .navigate-prev {
+    padding: 35px 53px;
+  }
 }
 
 @media screen and (max-width: 1322px) {
