@@ -980,8 +980,9 @@ body.viewing-page-1 .top-line-logo-wrapper {
 .location__icon {
   position: absolute;
   margin: auto;
-  top: 43%;
-  left: 41%;
+  top: -197px;
+  left: auto;
+  right: 20.5%;
 }
 
 @-webkit-keyframes section-names-animation {
@@ -1394,16 +1395,18 @@ body .menu-open {
   }
   .location__map iframe {
     height: 95px;
+    width: 480px;
   }
   .location__icon {
     height: 195px;
-    left: 44%;
+    top: -141px;
+    right: 23.5%;
   }
   .bottom-line {
-    min-height: 85px;
+    min-height: 63px;
   }
   .navigate-next, .navigate-prev {
-    padding: 35px 53px;
+    padding: 24px 53px;
   }
 }
 
@@ -1456,8 +1459,6 @@ body .menu-open {
   }
   .location__icon {
     height: 210px;
-    top: 48%;
-    left: 44.5%;
   }
   .logo {
     right: 380px;
@@ -1628,10 +1629,6 @@ body .menu-open {
     padding-top: 50px;
     padding-bottom: 35px;
   }
-  .location__icon {
-    top: 49%;
-    left: 49%;
-  }
   .content-section {
     margin-top: 208px;
   }
@@ -1793,8 +1790,6 @@ body .menu-open {
   }
   .location__icon {
     height: 150px;
-    top: 51%;
-    left: 63%;
   }
   .location__title {
     font-size: 68px;
@@ -2205,6 +2200,8 @@ body .menu-open {
     margin-left: 100px;
   }
   .location__icon {
+    top: -60px;
+    right: 17%;
     height: 100px;
   }
   .gm-style .default-card {
@@ -2269,8 +2266,8 @@ body .menu-open {
   }
   .location__icon {
     height: 130px;
-    top: 53%;
-    left: 69%;
+    top: -85px;
+    right: 0%;
   }
   .content .section-pagination-name_content-sections {
     font-size: 27px;
