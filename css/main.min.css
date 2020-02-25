@@ -1458,6 +1458,7 @@ body .menu-open {
     }
     .rectangle-text_coding {
         font-size: 45px;
+        padding-top: 48px;
     }
     .rectangle-text_coding:after, .rectangle-text_coding:before {
         height: 89px;
@@ -1543,6 +1544,12 @@ body .menu-open {
     }
     .navigate-next, .navigate-prev {
         padding: 24px 53px;
+    }
+    .order-form__title {
+        font-size: 20px;
+    }
+    .button_order {
+        padding: 18px 44px;
     }
 }
 
