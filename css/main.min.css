@@ -2299,7 +2299,7 @@ body .menu-open {
     font-size: 21px;
   }
   .contacts {
-    padding-top: 120px;
+    padding-top: 50px;
     padding-bottom: 45px;
   }
   .location__title {
@@ -2330,7 +2330,7 @@ body .menu-open {
     left: 93px;
   }
   .content-right-text__description {
-    display: none;
+    display: block;
   }
 }
 
