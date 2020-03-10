@@ -2255,6 +2255,12 @@ body .menu-open {
   }
 }
 
+@media screen and (max-width: 358px) {
+  .logo {
+    right: 0px;
+  }
+}
+
 @media screen and (min-height: 650px) and (max-height: 910px) and (max-width: 500px) {
   .content-text {
     font-size: 19px;
@@ -2280,7 +2286,7 @@ body .menu-open {
     font-size: 15px;
   }
   .content-technology__item {
-    margin-top: 90px;
+    margin-top: 64px;
     font-size: 27.7789px;
   }
   .content-title-text h2 {
@@ -2418,5 +2424,127 @@ body .menu-open {
   }
   .counter__decoration_secoundary-line {
     max-height: 465px;
+  }
+}
+
+@media screen and (min-height: 630px) and (max-height: 800px) and (min-width: 1300px) and (max-width: 1400px) {
+  .main-section {
+    margin-top: 140px;
+  }
+  .content-section {
+    margin-top: 190px;
+  }
+  .content-title {
+    width: 290px;
+  }
+  .content-subtitle {
+    width: 500px;
+  }
+  .content-text {
+    width: 520px;
+    margin-top: 30px;
+  }
+  .lamp-light, .lamp-dark {
+    height: 550px;
+  }
+  .logo {
+    top: -95px;
+    right: 335px;
+  }
+  .onepage-pagination {
+    top: 20%;
+  }
+  .onepage-pagination li a {
+    margin-bottom: 95px;
+  }
+  .content-title-text h2 {
+    font-size: 50px;
+  }
+  .services-list__item {
+    font-size: 19px;
+    margin-bottom: 17px;
+  }
+  .rectangle-text_coding {
+    padding-top: 30px;
+  }
+  .rectangle-text_coding:before, .rectangle-text_coding:after {
+    height: 85px;
+  }
+  .content-right-text__description {
+    font-size: 19px;
+  }
+  .content-right-text {
+    margin-top: 10px;
+  }
+  .rectangle-text__ux {
+    font-size: 50px;
+  }
+  .rectangle-text__ux:after, .rectangle-text__ux:before {
+    height: 66px;
+  }
+  .rectangle-text__ux:after {
+    width: 133px;
+  }
+  .rectangle-text__ux:before {
+    left: 133px;
+  }
+  .content-technology__item_laravel {
+    margin-top: 30px;
+  }
+  .content-technology__item_react, .content-technology__item_wordpress {
+    margin-top: 88px;
+  }
+  .logos-item__laravel {
+    height: 300px;
+    left: -20px;
+  }
+  .logos-item__react {
+    bottom: 130px;
+    height: 250px;
+    right: 550px;
+  }
+  .logos-item__wordpress {
+    height: 180px;
+    left: -250px;
+  }
+  .contacts {
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-bottom: 9px;
+  }
+  .contacts__item {
+    margin-bottom: 20px;
+  }
+  .counter__number {
+    font-size: 115px;
+  }
+  .counter__number {
+    top: 0;
+  }
+  .counter__number_second {
+    top: 90px;
+  }
+  .counter__number_third {
+    top: 180px;
+  }
+  .counter__number_fourth {
+    top: 270px;
+  }
+  .counter__decoration_primary-line {
+    height: 89px;
+    left: 100px;
+  }
+  .counter__decoration_primary-line_second {
+    top: 87px;
+  }
+  .counter__decoration_primary-line_third {
+    top: 174px;
+  }
+  .counter__decoration_primary-line_fourth {
+    top: 261px;
+  }
+  .counter__decoration_secoundary-line {
+    max-height: 350px;
+    margin-left: 108px;
   }
 }
