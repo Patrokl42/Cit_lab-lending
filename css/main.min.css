@@ -572,7 +572,7 @@ body.viewing-page-1 .top-line-logo-wrapper {
 }
 
 .content-title-text_third h2:after {
-  content: ';';
+  content: ':';
 }
 
 .content-title-text_fourth h2:after {
@@ -866,6 +866,11 @@ body.viewing-page-1 .top-line-logo-wrapper {
   left: 0;
   right: 0;
   margin: auto;
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -o-pixelated;
+      image-rendering: pixelated;
 }
 
 .logos-item__react {
@@ -875,6 +880,11 @@ body.viewing-page-1 .top-line-logo-wrapper {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   left: 600px;
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -o-pixelated;
+      image-rendering: pixelated;
 }
 
 .logos-item__wordpress {
@@ -882,6 +892,11 @@ body.viewing-page-1 .top-line-logo-wrapper {
   bottom: 30px;
   left: 0;
   right: 0;
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -o-pixelated;
+      image-rendering: pixelated;
 }
 
 .contacts {
@@ -2427,7 +2442,7 @@ body .menu-open {
   }
 }
 
-@media screen and (min-height: 630px) and (max-height: 800px) and (min-width: 1300px) and (max-width: 1400px) {
+@media screen and (max-height: 800px) and (min-width: 1300px) and (max-width: 1400px) {
   .main-section {
     margin-top: 140px;
   }
@@ -2528,7 +2543,7 @@ body .menu-open {
     top: 180px;
   }
   .counter__number_fourth {
-    top: 270px;
+    top: 225px;
   }
   .counter__decoration_primary-line {
     height: 89px;
@@ -2541,10 +2556,22 @@ body .menu-open {
     top: 174px;
   }
   .counter__decoration_primary-line_fourth {
-    top: 261px;
+    top: 220px;
   }
   .counter__decoration_secoundary-line {
     max-height: 350px;
     margin-left: 108px;
+  }
+  .main .section:nth-child(4) .counter__decoration_secoundary-line {
+    max-height: 309px;
+  }
+  .order-form {
+    padding: 7px 20px;
+  }
+}
+
+@media screen and (max-width: 380px) and (min-height: 650px) and (max-height: 670px) {
+  .content-right-text__description {
+    display: none;
   }
 }
